@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"This is a test directory to learn Git and NOde\"",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "lite":"lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is4832/git.git"
+  },
+  "author": "Ishan Gual",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/is4832/git/issues"
+  },
+  "homepage": "https://github.com/is4832/git#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
